@@ -16,7 +16,7 @@ const METHOD_LABELS = {
   piston: 'Piston (French Press)',
 };
 
-const WEIGHTS = ['125g', '250g', '500g', '1kg'];
+const WEIGHTS = ['250g', '500g', '1kg'];
 
 const PICKUP_LOCATIONS = [
   'Marché Place de la Sardane à Amélie-les-Bains — Tous les jeudis matin',

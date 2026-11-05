@@ -106,7 +106,7 @@ export default function OrderRecap({ quiz, onBack, onEmail }) {
       </aside>
 
       <p className="recap__next-step">
-        ℹ️ Tu choisiras le poids (125g, 250g, 500g ou 1kg), la quantité et la mouture à l'étape suivante.
+        ℹ️ Tu choisiras le poids (250g, 500g ou 1kg), la quantité et la mouture à l'étape suivante.
       </p>
 
       <div className="recap__actions">
