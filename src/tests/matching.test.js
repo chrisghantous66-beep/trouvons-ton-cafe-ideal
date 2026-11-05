@@ -83,10 +83,10 @@ describe('computeAlternatives', () => {
       profil_gustatif: 'gourmand-chocolate',
       intensity: 'corse',
     };
-    const blendComposition = [{ coffee_id: 'capucas', percentage: 60 }];
+    const blendComposition = [{ coffee_id: 'san_rafael', percentage: 60 }];
     const alts = computeAlternatives(coffees, quiz, blendComposition);
     expect(alts).toHaveLength(2);
-    expect(alts[0].coffee.id).not.toBe('capucas');
+    expect(alts[0].coffee.id).not.toBe('san_rafael');
   });
 
   it('exclut un café déjà majoritaire dans le blend', () => {
@@ -95,9 +95,9 @@ describe('computeAlternatives', () => {
       profil_gustatif: 'gourmand-chocolate',
       intensity: 'corse',
     };
-    const blendComposition = [{ coffee_id: 'capucas', percentage: 60 }];
+    const blendComposition = [{ coffee_id: 'san_rafael', percentage: 60 }];
     const alts = computeAlternatives(coffees, quiz, blendComposition);
-    expect(alts.every(a => a.coffee.id !== 'capucas')).toBe(true);
+    expect(alts.every(a => a.coffee.id !== 'san_rafael')).toBe(true);
   });
 });
 
@@ -117,7 +117,11 @@ describe('match (intégration)', () => {
     expect(result.blend.roast_level).toBe('dark');
     expect(result.blend.composition.length).toBeGreaterThan(0);
     expect(result.blend.composition.reduce((a, c) => a + c.percentage, 0)).toBe(100);
-    expect(result.alternatives).toHaveLength(2);
+    expect(result.alternatives.length).toBeGreaterThanOrEqual(1);
+    // aucune alternative ne doit reprendre un café déjà présent dans le blend
+    expect(
+      result.alternatives.every(a => !result.blend.composition.some(c => c.coffee.id === a.coffee.id)),
+    ).toBe(true);
   });
 
   it('fallback sur recette espresso si la recette du mode est absente', () => {

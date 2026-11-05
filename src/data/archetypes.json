@@ -13,14 +13,14 @@
       "roast": ["medium", "dark"]
     },
     "blend_recipes": {
-      "espresso":  [{"coffee_id": "capucas", "percentage": 60}, {"coffee_id": "palanda", "percentage": 30}, {"coffee_id": "el_triunfo", "percentage": 10}],
-      "filtre":    [{"coffee_id": "capucas", "percentage": 50}, {"coffee_id": "palanda", "percentage": 30}, {"coffee_id": "el_triunfo", "percentage": 20}],
-      "moka":      [{"coffee_id": "capucas", "percentage": 60}, {"coffee_id": "palanda", "percentage": 40}],
-      "aeropress": [{"coffee_id": "capucas", "percentage": 50}, {"coffee_id": "palanda", "percentage": 30}, {"coffee_id": "el_triunfo", "percentage": 20}],
-      "piston":    [{"coffee_id": "capucas", "percentage": 50}, {"coffee_id": "palanda", "percentage": 50}]
+      "espresso":  [{"coffee_id": "san_rafael", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 30}, {"coffee_id": "salomon", "percentage": 10}],
+      "filtre":    [{"coffee_id": "san_rafael", "percentage": 50}, {"coffee_id": "el_triunfo", "percentage": 30}, {"coffee_id": "salomon", "percentage": 20}],
+      "moka":      [{"coffee_id": "san_rafael", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}],
+      "aeropress": [{"coffee_id": "san_rafael", "percentage": 50}, {"coffee_id": "el_triunfo", "percentage": 30}, {"coffee_id": "salomon", "percentage": 20}],
+      "piston":    [{"coffee_id": "san_rafael", "percentage": 50}, {"coffee_id": "el_triunfo", "percentage": 50}]
     },
-    "blend_story": "Capucas pour la base chocolatée et structurée, Palanda pour la rondeur miellée, El Triunfo pour adoucir l'ensemble.",
-    "alternatives_hint": ["capucas", "palanda"],
+    "blend_story": "San Rafael pour la base chocolatée et le corps, El Triunfo pour l'accessibilité, Salomon pour une pointe d'éveil caramel.",
+    "alternatives_hint": ["san_rafael", "el_triunfo"],
     "sensory_profile": {
       "acidite": 3.5, "intensite": 8.5, "corps": 9.0, "complexite": 7.0,
       "equilibre": 6.5, "longueur": 8.0, "clarte": 5.0, "sucrosite": 7.5
@@ -40,14 +40,14 @@
       "roast": ["medium"]
     },
     "blend_recipes": {
-      "espresso":  [{"coffee_id": "palanda", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}],
-      "filtre":    [{"coffee_id": "palanda", "percentage": 50}, {"coffee_id": "el_triunfo", "percentage": 50}],
-      "moka":      [{"coffee_id": "palanda", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}],
-      "aeropress": [{"coffee_id": "palanda", "percentage": 50}, {"coffee_id": "el_triunfo", "percentage": 50}],
-      "piston":    [{"coffee_id": "palanda", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}]
+      "espresso":  [{"coffee_id": "san_rafael", "percentage": 50}, {"coffee_id": "el_triunfo", "percentage": 50}],
+      "filtre":    [{"coffee_id": "el_triunfo", "percentage": 50}, {"coffee_id": "san_rafael", "percentage": 50}],
+      "moka":      [{"coffee_id": "san_rafael", "percentage": 50}, {"coffee_id": "el_triunfo", "percentage": 50}],
+      "aeropress": [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "san_rafael", "percentage": 40}],
+      "piston":    [{"coffee_id": "san_rafael", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}]
     },
-    "blend_story": "Palanda apporte la rondeur miellée, El Triunfo l'accessibilité chocolatée. Un duo doux et confortable.",
-    "alternatives_hint": ["palanda", "el_triunfo"],
+    "blend_story": "San Rafael et El Triunfo en duo : cacao crémeux et douceur accessible, sans agressivité.",
+    "alternatives_hint": ["san_rafael", "el_triunfo"],
     "sensory_profile": {
       "acidite": 3.0, "intensite": 7.0, "corps": 7.5, "complexite": 6.5,
       "equilibre": 7.5, "longueur": 7.0, "clarte": 6.0, "sucrosite": 8.5
@@ -67,14 +67,14 @@
       "roast": ["medium"]
     },
     "blend_recipes": {
-      "espresso":  [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "palanda", "percentage": 30}],
-      "filtre":    [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "palanda", "percentage": 30}],
-      "moka":      [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "palanda", "percentage": 40}],
-      "aeropress": [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "palanda", "percentage": 30}],
-      "piston":    [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "palanda", "percentage": 40}]
+      "espresso":  [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "san_rafael", "percentage": 30}],
+      "filtre":    [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "san_rafael", "percentage": 30}],
+      "moka":      [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "san_rafael", "percentage": 40}],
+      "aeropress": [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "san_rafael", "percentage": 30}],
+      "piston":    [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "san_rafael", "percentage": 40}]
     },
-    "blend_story": "El Triunfo en majorité pour la douceur, Palanda pour une rondeur soyeuse. Un café du soir chocolaté sans excès.",
-    "alternatives_hint": ["el_triunfo", "palanda"],
+    "blend_story": "El Triunfo en majorité pour la douceur, San Rafael pour une rondeur cacao apaisante.",
+    "alternatives_hint": ["el_triunfo", "san_rafael"],
     "sensory_profile": {
       "acidite": 2.5, "intensite": 6.0, "corps": 7.0, "complexite": 6.0,
       "equilibre": 8.0, "longueur": 7.5, "clarte": 6.5, "sucrosite": 8.0
@@ -94,14 +94,14 @@
       "roast": ["light", "medium"]
     },
     "blend_recipes": {
-      "espresso":  [{"coffee_id": "salomon", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}],
-      "filtre":    [{"coffee_id": "salomon", "percentage": 50}, {"coffee_id": "el_palomar", "percentage": 50}],
-      "moka":      [{"coffee_id": "salomon", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}],
-      "aeropress": [{"coffee_id": "salomon", "percentage": 50}, {"coffee_id": "el_palomar", "percentage": 50}],
-      "piston":    [{"coffee_id": "salomon", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}]
+      "espresso":  [{"coffee_id": "salomon", "percentage": 60}, {"coffee_id": "san_rafael", "percentage": 40}],
+      "filtre":    [{"coffee_id": "salomon", "percentage": 70}, {"coffee_id": "san_rafael", "percentage": 30}],
+      "moka":      [{"coffee_id": "salomon", "percentage": 60}, {"coffee_id": "san_rafael", "percentage": 40}],
+      "aeropress": [{"coffee_id": "salomon", "percentage": 70}, {"coffee_id": "san_rafael", "percentage": 30}],
+      "piston":    [{"coffee_id": "salomon", "percentage": 60}, {"coffee_id": "san_rafael", "percentage": 40}]
     },
-    "blend_story": "Salomon apporte les notes vives de citron et pêche, El Palomar la structure de fruits secs.",
-    "alternatives_hint": ["salomon", "el_palomar"],
+    "blend_story": "Salomon apporte le citron et la pêche, San Rafael la rondeur et les raisins secs. Un réveil net et structuré.",
+    "alternatives_hint": ["salomon", "san_rafael"],
     "sensory_profile": {
       "acidite": 8.5, "intensite": 7.5, "corps": 5.0, "complexite": 7.0,
       "equilibre": 7.5, "longueur": 7.0, "clarte": 8.5, "sucrosite": 6.5
@@ -122,13 +122,13 @@
     },
     "blend_recipes": {
       "espresso":  [{"coffee_id": "salomon", "percentage": 70}, {"coffee_id": "el_triunfo", "percentage": 30}],
-      "filtre":    [{"coffee_id": "salomon", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}],
+      "filtre":    [{"coffee_id": "salomon", "percentage": 70}, {"coffee_id": "el_triunfo", "percentage": 30}],
       "moka":      [{"coffee_id": "salomon", "percentage": 70}, {"coffee_id": "el_triunfo", "percentage": 30}],
-      "aeropress": [{"coffee_id": "salomon", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}],
+      "aeropress": [{"coffee_id": "salomon", "percentage": 70}, {"coffee_id": "el_triunfo", "percentage": 30}],
       "piston":    [{"coffee_id": "salomon", "percentage": 70}, {"coffee_id": "el_triunfo", "percentage": 30}]
     },
-    "blend_story": "Salomon en vedette pour ses fruits, complété par une note adoucissante. Une pause solaire.",
-    "alternatives_hint": ["salomon", "el_palomar"],
+    "blend_story": "Salomon en vedette pour ses fruits, complété d'une touche adoucissante. Une pause solaire.",
+    "alternatives_hint": ["salomon", "el_triunfo"],
     "sensory_profile": {
       "acidite": 7.5, "intensite": 6.5, "corps": 4.0, "complexite": 6.5,
       "equilibre": 8.0, "longueur": 6.5, "clarte": 9.0, "sucrosite": 7.5
@@ -148,14 +148,14 @@
       "roast": ["medium", "dark"]
     },
     "blend_recipes": {
-      "espresso":  [{"coffee_id": "capucas", "percentage": 50}, {"coffee_id": "palanda", "percentage": 30}, {"coffee_id": "salomon", "percentage": 20}],
-      "filtre":    [{"coffee_id": "capucas", "percentage": 50}, {"coffee_id": "salomon", "percentage": 30}, {"coffee_id": "el_palomar", "percentage": 20}],
-      "moka":      [{"coffee_id": "capucas", "percentage": 60}, {"coffee_id": "palanda", "percentage": 40}],
-      "aeropress": [{"coffee_id": "capucas", "percentage": 50}, {"coffee_id": "salomon", "percentage": 30}, {"coffee_id": "el_palomar", "percentage": 20}],
-      "piston":    [{"coffee_id": "capucas", "percentage": 60}, {"coffee_id": "palanda", "percentage": 40}]
+      "espresso":  [{"coffee_id": "san_rafael", "percentage": 50}, {"coffee_id": "salomon", "percentage": 30}, {"coffee_id": "el_triunfo", "percentage": 20}],
+      "filtre":    [{"coffee_id": "san_rafael", "percentage": 50}, {"coffee_id": "salomon", "percentage": 30}, {"coffee_id": "el_triunfo", "percentage": 20}],
+      "moka":      [{"coffee_id": "san_rafael", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}],
+      "aeropress": [{"coffee_id": "san_rafael", "percentage": 50}, {"coffee_id": "salomon", "percentage": 30}, {"coffee_id": "el_triunfo", "percentage": 20}],
+      "piston":    [{"coffee_id": "san_rafael", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}]
     },
-    "blend_story": "Capucas pour la structure, Palanda pour la rondeur, Salomon pour l'éveil. Un trio qui tient la durée.",
-    "alternatives_hint": ["capucas", "palanda"],
+    "blend_story": "San Rafael pour la structure et le corps, Salomon pour l'éveil fruité, El Triunfo pour arrondir. Un trio qui tient la durée.",
+    "alternatives_hint": ["san_rafael", "el_triunfo"],
     "sensory_profile": {
       "acidite": 6.0, "intensite": 9.5, "corps": 9.0, "complexite": 7.5,
       "equilibre": 6.0, "longueur": 9.0, "clarte": 6.5, "sucrosite": 5.5
@@ -177,9 +177,9 @@
     "blend_recipes": {
       "espresso":  [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "salomon", "percentage": 40}],
       "filtre":    [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "salomon", "percentage": 30}],
-      "moka":      [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}],
+      "moka":      [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "salomon", "percentage": 40}],
       "aeropress": [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "salomon", "percentage": 30}],
-      "piston":    [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}]
+      "piston":    [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "salomon", "percentage": 40}]
     },
     "blend_story": "Kitché en vedette pour sa complexité florale, Salomon pour ajouter une note fruitée.",
     "alternatives_hint": ["kitche", "salomon"],
@@ -203,13 +203,13 @@
     },
     "blend_recipes": {
       "espresso":  [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}],
-      "filtre":    [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "el_palomar", "percentage": 30}],
+      "filtre":    [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "el_triunfo", "percentage": 30}],
       "moka":      [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}],
-      "aeropress": [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "el_palomar", "percentage": 30}],
+      "aeropress": [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "el_triunfo", "percentage": 30}],
       "piston":    [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "el_triunfo", "percentage": 40}]
     },
-    "blend_story": "Kitché pour la finesse florale, complété pour adoucir la tasse en fin de journée.",
-    "alternatives_hint": ["kitche", "el_palomar"],
+    "blend_story": "Kitché pour la finesse florale, El Triunfo pour adoucir la tasse en fin de journée.",
+    "alternatives_hint": ["kitche", "el_triunfo"],
     "sensory_profile": {
       "acidite": 5.5, "intensite": 6.5, "corps": 3.5, "complexite": 8.0,
       "equilibre": 8.5, "longueur": 7.5, "clarte": 9.0, "sucrosite": 7.5
@@ -229,14 +229,14 @@
       "roast": ["light", "medium"]
     },
     "blend_recipes": {
-      "espresso":  [{"coffee_id": "kitche", "percentage": 50}, {"coffee_id": "el_palomar", "percentage": 50}],
-      "filtre":    [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}],
-      "moka":      [{"coffee_id": "kitche", "percentage": 50}, {"coffee_id": "el_palomar", "percentage": 50}],
-      "aeropress": [{"coffee_id": "kitche", "percentage": 60}, {"coffee_id": "el_palomar", "percentage": 40}],
-      "piston":    [{"coffee_id": "kitche", "percentage": 50}, {"coffee_id": "el_palomar", "percentage": 50}]
+      "espresso":  [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "salomon", "percentage": 30}],
+      "filtre":    [{"coffee_id": "kitche", "percentage": 80}, {"coffee_id": "salomon", "percentage": 20}],
+      "moka":      [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "salomon", "percentage": 30}],
+      "aeropress": [{"coffee_id": "kitche", "percentage": 80}, {"coffee_id": "salomon", "percentage": 20}],
+      "piston":    [{"coffee_id": "kitche", "percentage": 70}, {"coffee_id": "salomon", "percentage": 30}]
     },
-    "blend_story": "Kitché et El Palomar à parts égales : un duo précis, fruits secs et clarté florale.",
-    "alternatives_hint": ["kitche", "el_palomar"],
+    "blend_story": "Kitché en vedette pour une clarté florale nette, Salomon en touche d'éveil. Un duo précis qui éveille sans distraire.",
+    "alternatives_hint": ["kitche", "salomon"],
     "sensory_profile": {
       "acidite": 6.5, "intensite": 7.0, "corps": 5.5, "complexite": 8.0,
       "equilibre": 8.5, "longueur": 7.5, "clarte": 9.5, "sucrosite": 6.5
@@ -256,14 +256,14 @@
       "roast": []
     },
     "blend_recipes": {
-      "espresso":  [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "palanda", "percentage": 40}],
+      "espresso":  [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "san_rafael", "percentage": 40}],
       "filtre":    [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "salomon", "percentage": 40}],
-      "moka":      [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "palanda", "percentage": 30}],
+      "moka":      [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "san_rafael", "percentage": 30}],
       "aeropress": [{"coffee_id": "el_triunfo", "percentage": 60}, {"coffee_id": "salomon", "percentage": 40}],
-      "piston":    [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "palanda", "percentage": 30}]
+      "piston":    [{"coffee_id": "el_triunfo", "percentage": 70}, {"coffee_id": "san_rafael", "percentage": 30}]
     },
     "blend_story": "El Triunfo comme base accessible, complété pour donner du caractère.",
-    "alternatives_hint": ["el_triunfo", "capucas"],
+    "alternatives_hint": ["el_triunfo", "san_rafael"],
     "sensory_profile": {
       "acidite": 5.0, "intensite": 6.5, "corps": 6.5, "complexite": 6.0,
       "equilibre": 8.5, "longueur": 6.5, "clarte": 7.5, "sucrosite": 7.5

@@ -90,12 +90,10 @@ function matchesExperience(archetype, level) {
 }
 
 export function computeAlternatives(coffees, quiz, blendComposition) {
-  const majorityIds = blendComposition
-    .filter(c => c.percentage > 50)
-    .map(c => c.coffee_id);
+  const blendIds = blendComposition.map(c => c.coffee_id);
 
   const scored = coffees
-    .filter(c => !majorityIds.includes(c.id))
+    .filter(c => !blendIds.includes(c.id))
     .map(c => ({ coffee: c, score: scoreCoffeeAlt(c, quiz) }));
 
   scored.sort((a, b) => b.score - a.score);

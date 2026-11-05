@@ -1,31 +1,5 @@
 [
   {
-    "id": "capucas",
-    "name": "Capucas",
-    "origin": "Honduras",
-    "grade": "Grand Cru",
-    "tasting_notes": ["chocolat", "caramel", "réglisse"],
-    "profile": { "intensity": 4, "acidity": 2, "body": 4, "sweetness": 4 },
-    "default_roast": "medium",
-    "flavor_tags": ["gourmand", "chocolate", "reconfortant"],
-    "best_for": ["espresso", "moka", "filtre"],
-    "product_url": "https://torrea.fr/product/cafe-capucas-honduras-commerce-equitable/",
-    "short_story": "Un Honduras grand cru aux notes profondes de chocolat et caramel."
-  },
-  {
-    "id": "el_palomar",
-    "name": "El Palomar",
-    "origin": "Pérou",
-    "grade": "84 SCA",
-    "tasting_notes": ["fruits secs", "agrumes"],
-    "profile": { "intensity": 3, "acidity": 4, "body": 3, "sweetness": 3 },
-    "default_roast": "medium",
-    "flavor_tags": ["vif", "fruite"],
-    "best_for": ["filtre", "aeropress"],
-    "product_url": "https://torrea.fr/product/cafe-el-palomar-perou-commerce-equitable/",
-    "short_story": "Un Pérou éclatant, entre fruits secs et fraîcheur d'agrumes."
-  },
-  {
     "id": "el_triunfo",
     "name": "El Triunfo",
     "origin": "Mexique",
@@ -39,17 +13,17 @@
     "short_story": "Un Mexique chocolaté et accessible, parfait pour découvrir le café de spécialité."
   },
   {
-    "id": "palanda",
-    "name": "Palanda",
-    "origin": "Équateur",
-    "grade": "Grand Cru",
-    "tasting_notes": ["chocolat", "caramel", "miel", "malt"],
-    "profile": { "intensity": 4, "acidity": 2, "body": 5, "sweetness": 5 },
+    "id": "san_rafael",
+    "name": "San Rafael",
+    "origin": "Brésil",
+    "grade": "16/18 — 100 % Arabica",
+    "tasting_notes": ["chocolat", "cacao", "fruits secs", "raisins"],
+    "profile": { "intensity": 4, "acidity": 2, "body": 4, "sweetness": 4 },
     "default_roast": "medium",
     "flavor_tags": ["gourmand", "chocolate", "rond"],
-    "best_for": ["espresso", "moka"],
-    "product_url": "https://torrea.fr/product/cafe-equateur-palanda-commerce-equitable/",
-    "short_story": "Un Équateur grand cru, dense et miellé, à la rondeur exceptionnelle."
+    "best_for": ["espresso", "moka", "filtre", "piston"],
+    "product_url": "https://torrea.fr/product/cafe-san-rafael-bresil-commerce-equitable/",
+    "short_story": "Un Brésil du Cerrado Mineiro : chocolat et cacao, corps crémeux, fruits secs et raisins."
   },
   {
     "id": "kitche",
